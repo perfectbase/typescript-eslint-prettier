@@ -1,0 +1,21 @@
+{
+  "name": "typescript-eslint-prettier",
+  "version": "1.0.0",
+  "description": "An ESLint + Prettier setup for TypeScript",
+  "main": ".dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "lint": "eslint ."
+  },
+  "author": "Perfect Base",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.18.0",
+    "@typescript-eslint/parser": "5.18.0",
+    "eslint": "8.13.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "ts-node": "10.7.0",
+    "typescript": "4.4.4"
+  }
+}
